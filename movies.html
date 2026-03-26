@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>All Movies | CineMate</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">CINE<span>MATE</span><b>+</b></div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="movies.html" class="active">Movies</a></li>
+            <li><a href="tv-shows.html">TV Shows</a></li>
+            <li><a href="favourites.html">Favourites</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero movies-hero">
+        <div class="hero-text text-center">
+            <h1>DISCOVER <span style="color: var(--neon-green);">MOVIES</span></h1>
+            <p style="color: var(--text-dim);">Browse our massive collection of cinematic masterpieces.</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="filter-bar">
+            <button class="filter-btn active">All</button>
+            <button class="filter-btn">Action</button>
+            <button class="filter-btn">Sci-Fi</button>
+            <button class="filter-btn">Horror</button>
+            <button class="filter-btn">Comedy</button>
+            <div class="sort-box">
+                <select class="sort-select">
+                    <option>Sort by: Latest</option>
+                    <option>Sort by: Rating</option>
+                    <option>Sort by: A-Z</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="movie-grid">
+            <div class="movie-card">
+                <img src="Interstellar.jpg" onerror="this.src='https://via.placeholder.com/300x450/111/2ecc71?text=Interstellar'" alt="Interstellar">
+                <div class="card-content">
+                    <h3>Interstellar</h3>
+                    <p style="font-size: 0.8rem; color: var(--text-dim); margin-bottom: 5px;">Sci-Fi • 2014</p>
+                    <div class="rating"><span>★ 8.9</span> <span class="fav-icon">❤</span></div>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <img src="The Batman.jpg" alt="The Batman">
+                <div class="card-content">
+                    <h3>The Batman</h3>
+                    <p style="font-size: 0.8rem; color: var(--text-dim); margin-bottom: 5px;">Action • 2022</p>
+                    <div class="rating"><span>★ 8.5</span> <span class="fav-icon">❤</span></div>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt7xlJEzb-xopDqcQ6iw9SbY8PAlJN8H7DYUzTqmZkwLT9o8JXv6YWvDMGRKwkyRnf6RHzGg&s=10" alt="Dune">
+                <div class="card-content">
+                    <h3>Dune: Part Two</h3>
+                    <p style="font-size: 0.8rem; color: var(--text-dim); margin-bottom: 5px;">Sci-Fi • 2024</p>
+                    <div class="rating"><span>★ 9.0</span> <span class="fav-icon">❤</span></div>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8FFJNBaIXvhEwqXXw40rYYDci8jPlYxWfy9082flliYoZ-SqqZjy0az-G5rIWuSJp2pn7xQ&s=10" alt="Oppenheimer">
+                <div class="card-content">
+                    <h3>Oppenheimer</h3>
+                    <p style="font-size: 0.8rem; color: var(--text-dim); margin-bottom: 5px;">Drama • 2023</p>
+                    <div class="rating"><span>★ 8.8</span> <span class="fav-icon">❤</span></div>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxgwtZeoeVsOXbXcszVqnC69N5PffvtFo5Up6LeR5M_BESg6nckMrs3YALLu3HZhjNxN9bsgM5OFynnk_ixJd9z_tzAjdltbidnH0NyQ&s=10" alt="John Wick">
+                <div class="card-content">
+                    <h3>John Wick: Chapter 4</h3>
+                    <p style="font-size: 0.8rem; color: var(--text-dim); margin-bottom: 5px;">Action • 2023</p>
+                    <div class="rating"><span>★ 8.2</span> <span class="fav-icon">❤</span></div>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDDvJ0zhGxVySz3RjLa35ukjpctxW41KzD3VQ56VzSEX2lB5WHZ0le10IjuI8ZJ9cd5CeZpA&s=10" alt="Spider-Man">
+                <div class="card-content">
+                    <h3>Spider-Man: Across the Spider-Verse</h3>
+                    <p style="font-size: 0.8rem; color: var(--text-dim); margin-bottom: 5px;">Animation • 2023</p>
+                    <div class="rating"><span>★ 8.9</span> <span class="fav-icon">❤</span></div>
+                </div>
+            </div>
+            
+            <div class="movie-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFs2b42I8mdYGULACpk8zRlBMHFP_ligKNHTuYvnswpNg4rDm87RY2K74SJ-kh6Wtj9mbZiw&s=10" alt="Deadpool">
+                <div class="card-content">
+                    <h3>Deadpool & Wolverine</h3>
+                    <p style="font-size: 0.8rem; color: var(--text-dim); margin-bottom: 5px;">Action/Comedy • 2024</p>
+                    <div class="rating"><span>★ 8.4</span> <span class="fav-icon">❤</span></div>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYculcxN4nJIOcR2twSLe1YcNopSYMV7u8NLldqrK08vQcJbazkou-6Th6mmitsSJDSoyj&s=10" alt="Alien">
+                <div class="card-content">
+                    <h3>Alien: Romulus</h3>
+                    <p style="font-size: 0.8rem; color: var(--text-dim); margin-bottom: 5px;">Horror • 2024</p>
+                    <div class="rating"><span>★ 7.9</span> <span class="fav-icon">❤</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-column brand-info">
+                <div class="logo">CINE<span>MATE</span><b>+</b></div>
+                <p>Your ultimate destination for the latest movies and TV shows. Experience premium streaming with a modern touch.</p>
+                <div class="social-icons">
+                    <a href="#">FB</a>
+                    <a href="#">IG</a>
+                    <a href="#">TW</a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="movies.html">Movies</a></li>
+                    <li><a href="tv-shows.html">TV Shows</a></li>
+                    <li><a href="favourites.html">My List</a></li>
+                </ul>
+            </div>
+            <div class="footer-column newsletter">
+                <h4>Stay Updated</h4>
+                <p>Subscribe to get movie alerts.</p>
+                <div class="subscribe-box">
+                    <input type="email" placeholder="Email Address">
+                    <button type="button">GO</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 CineMate. Designed for Modern Cinema.</p>
+        </div>
+    </footer>
+</body>
+</html>
