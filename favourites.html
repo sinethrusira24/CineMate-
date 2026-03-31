@@ -26,51 +26,13 @@
 
     <div class="container">
         <div class="section-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px;">
-            <h2>My List (4)</h2>
-            <button class="filter-btn" style="border-color: #ff4757; color: #ff4757;">Clear All</button>
+            <h2>My List <span id="fav-count">(0)</span></h2>
+            <button id="clear-all-btn" class="filter-btn" style="border-color: #ff4757; color: #ff4757;">Clear All</button>
         </div>
 
-        <div class="movie-grid">
-            
-            <div class="movie-card">
-                <img src="https://via.placeholder.com/300x450/111/2ecc71?text=Interstellar" alt="Interstellar">
-                <div class="card-content">
-                    <h3>Interstellar</h3>
-                    <p style="font-size: 0.8rem; color: var(--text-dim); margin-bottom: 5px;">Movie • Added 2 days ago</p>
-                    <div class="rating"><span>★ 8.9</span> <span class="remove-icon" title="Remove from list">✖</span></div>
-                </div>
+        <div class="movie-grid" id="favourites-grid">
             </div>
-
-            <div class="movie-card">
-                <img src="https://via.placeholder.com/300x450/111/f1c40f?text=The+Boys" alt="The Boys">
-                <div class="card-content">
-                    <h3>The Boys</h3>
-                    <p style="font-size: 0.8rem; color: var(--text-dim); margin-bottom: 5px;">TV Show • Added 1 week ago</p>
-                    <div class="rating"><span>★ 8.7</span> <span class="remove-icon" title="Remove from list">✖</span></div>
-                </div>
-            </div>
-
-            <div class="movie-card">
-                <img src="https://via.placeholder.com/300x450/111/2ecc71?text=Dune+Part+Two" alt="Dune">
-                <div class="card-content">
-                    <h3>Dune: Part Two</h3>
-                    <p style="font-size: 0.8rem; color: var(--text-dim); margin-bottom: 5px;">Movie • Added just now</p>
-                    <div class="rating"><span>★ 9.0</span> <span class="remove-icon" title="Remove from list">✖</span></div>
-                </div>
-            </div>
-
-            <div class="movie-card">
-                <img src="https://via.placeholder.com/300x450/111/f1c40f?text=Severance" alt="Severance">
-                <div class="card-content">
-                    <h3>Severance</h3>
-                    <p style="font-size: 0.8rem; color: var(--text-dim); margin-bottom: 5px;">TV Show • Added 1 month ago</p>
-                    <div class="rating"><span>★ 8.7</span> <span class="remove-icon" title="Remove from list">✖</span></div>
-                </div>
-            </div>
-
-        </div>
-
-        </div>
+    </div>
 
     <footer class="main-footer">
         <div class="footer-container">
@@ -105,5 +67,7 @@
             <p>&copy; 2026 CineMate. Designed for Modern Cinema.</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
