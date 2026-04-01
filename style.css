@@ -404,3 +404,21 @@ body {
     background: #ff4757 !important;
     color: white !important;
 }
+
+/* Dynamic Rating Colors */
+.rating-gold { color: var(--bright-yellow); font-weight: bold; }
+.rating-green { color: var(--neon-green); font-weight: bold; }
+.rating-standard { color: var(--text-dim); }
+
+/* Absolute Positioning for Dynamic Badges */
+.card-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    z-index: 10;
+}
