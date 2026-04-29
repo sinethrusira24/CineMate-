@@ -1,5 +1,6 @@
+
 const mediaData = [
-    { id: 1, title: "Interstellar", year: 2014, rating: 8.9, genre: "Sci-Fi", badge: "Must Watch", type: "movie", image: "https://via.placeholder.com/300x450/111/2ecc71?text=Interstellar" },
+    { id: 1, title: "Interstellar", year: 2014, rating: 8.9, genre: "Sci-Fi", badge: "Must Watch", type: "movie", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSngBJ0B7UDrLUkDlp6DCQLsEYuWR-DiHwbnxFFCniB3HiP3f3NZmR1-lKSC34ge6YXu4LX&s=10" },
     { id: 2, title: "The Boys", year: 2019, rating: 8.7, genre: "Action/Comedy", badge: "Trending", type: "tv", image: "https://via.placeholder.com/300x450/111/f1c40f?text=The+Boys" },
     { id: 3, title: "Dune: Part Two", year: 2024, rating: 9.0, genre: "Sci-Fi", badge: "New Release", type: "movie", image: "https://via.placeholder.com/300x450/111/2ecc71?text=Dune+Part+Two" },
     { id: 4, title: "Severance", year: 2022, rating: 8.7, genre: "Thriller", badge: "Must Watch", type: "tv", image: "https://via.placeholder.com/300x450/111/f1c40f?text=Severance" },
@@ -94,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         renderCards(tvOnly, 'dynamic-grid');
 
-    } else if (currentPage === 'home.html' || currentPage === '') {
+    } else if (currentPage === 'index.html' || currentPage === '') {
         const topRated = [];
         let i = 0;
         
